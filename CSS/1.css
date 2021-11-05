@@ -1,0 +1,28 @@
+h1{
+  color:azure;
+}
+h2{
+  font-size: larger;
+}
+h3{
+  font-family: 'Courier New', Courier, monospace;
+}
+p{
+  background-color: azure;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+      background-color: whitesmoke;
+      color:black;
+  }
+}
+@media screen and (min-width: 768px) {
+body {
+  background-color: whitesmoke;
+}
+.column {
+  width: 220px;
+  float: left;
+  padding: 15px;
+}
+}
